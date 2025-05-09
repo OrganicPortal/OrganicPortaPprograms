@@ -1,0 +1,11 @@
+[package]
+name = "organic_portal_program"
+version = "1.0.0"
+edition = "2018"
+
+[dependencies]
+solana-program = "2.1.21"
+
+[lib]
+name = "organic_portal_program"
+crate-type = ["cdylib", "lib"]
